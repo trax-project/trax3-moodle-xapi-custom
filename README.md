@@ -7,6 +7,4 @@ To install the plugin, from the root folder of your Moodle installation:
 git clone https://github.com/trax-project/trax3-moodle-xapi-custom.git ./local/trax_xapi_custom
 ```
 
-**copyright:** 2024, Sébastien Fraysse, http://fraysse.eu 
-**license:** http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later 
-
+Check-out this page for more explainations: https://github.com/trax-project/trax3-moodle-xapi-agent/blob/master/docs/customization.md 
