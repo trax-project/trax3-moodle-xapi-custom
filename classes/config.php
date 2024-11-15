@@ -1,5 +1,5 @@
 <?php
-// This file is part of the TRAX xAPI plugin for Moodle.
+// This file is part of the TRAX xAPI Agent plugin for Moodle.
 //
 // This plugin is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -22,6 +22,20 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Plugin.
-$string['pluginname'] = 'TRAX xAPI custom';
+namespace local_trax_xapi_custom;
+
+defined('MOODLE_INTERNAL') || die();
+
+class config {
+
+    /**
+     * Get the supported events.
+     *
+     * @return array
+     */
+    public function supported_events() {
+        return [];
+    }
+}
+
 
