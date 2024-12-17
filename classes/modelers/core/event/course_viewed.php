@@ -26,7 +26,7 @@ namespace local_trax_xapi_custom\modelers\core\event;
 
 defined('MOODLE_INTERNAL') || die();
 
-use block_trax_xapi_agent\modelers\core\event\course_viewed as modeler;
+use block_trax_xapi\modelers\core\event\course_viewed as modeler;
 
 class course_viewed extends modeler {
 
